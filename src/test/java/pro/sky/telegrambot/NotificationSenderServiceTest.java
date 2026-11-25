@@ -88,3 +88,4 @@ class NotificationSenderServiceTest {
         verify(telegramBot, times(2)).execute(any(SendMessage.class));
     }
 }
+
